@@ -1,0 +1,32 @@
+switch(c){
+        System.out.println("Enter the move of player A");
+            case 'A1':
+                if(B.valid(c,A1))
+                    pawnmove(c);
+                break;
+                
+            case 'A2':
+                if(B.valid(c,A2))
+                    pawnmove(c);
+                
+                break;
+            
+            case 'A3':
+                if(B.valid(c,A3))
+                    pawnmove(c);
+                
+                break;
+            
+            case 'A4':
+                if(B.valid(c,A4))
+                    pawnmove(c);
+                
+                break;
+                
+            case 'A5';
+                if(B.valid(c,A5))
+                    pawnmove(c);
+                break;
+                
+            
+        }

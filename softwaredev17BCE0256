@@ -1,0 +1,87 @@
+class Main {  
+  public static void main(String args[]) { 
+      
+    while(1){
+        
+    }
+  } 
+  
+  
+}
+
+public class board{
+    
+    boolean[] array= new array[5][5];
+    for(int i=0;i<5;i++){
+        for(int j<0;j<5;j++){
+            array[i][j]=false;
+        }
+    }
+    
+    boolean valid(char t,pawn p){
+        switch(t) {
+            case 'R':
+                if(p.x+1<5 && arr[p.x+1][p.y]==false)
+                    return true;
+                return false;
+            
+            case 'L':
+                if(p.x-1>0 && arr[p.x-1][p.y]==false)
+                    return true;
+                return false;
+                
+ 
+            case 'F':
+                if(p.y+1>5 && arr[p.x][p.y+1]==false)
+                    return true;
+                return false;
+                
+            case 'B':
+                if(p.y-1>0 && arr[p.x][p.y-1]==false)
+                    return true;
+                return false;
+            
+        }
+    }      
+    
+}
+
+public class pawn{
+    int x=0,y=0;
+    pawn(int a,int b){
+        x=a;y=b;
+    }
+    void pawnmove(char c){
+        switch(c){
+            case 'R':
+                x=x+1;
+                break;
+                
+            case 'L':
+                x=x-1;
+                break;
+            
+            case 'F':
+                y=y+1;
+                break;
+            
+            case 'B':
+                y=y+1;
+                break;
+            
+            
+        }
+    }
+}
+
+public class hero1{
+    
+}
+
+public class hero2{
+    
+}
+
+public class hero3{
+    
+}
